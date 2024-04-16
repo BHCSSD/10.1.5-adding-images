@@ -26,7 +26,7 @@ Graded
    - Load the images in the preload() function. Remember to copy the correct file path for your images.
 ```
 function preload() {
-  spongeBob = loadImage("spongebob.jpg");
+  spongeBob = createImg("spongebob.jpg","anything can go here");
 }//end preLoad
 ```
 
