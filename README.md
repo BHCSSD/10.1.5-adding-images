@@ -28,7 +28,7 @@ Graded
 5. Load Images in `preload()`:
 
    - Load the images in the `preload()` function. Remember to copy the correct file path for your images.
-```
+```javaScript
 function preload() {
   spongeBob = createImg("spongebob.jpg","anything can go here");
 }//end preLoad
@@ -37,7 +37,7 @@ function preload() {
 4. Draw Images on the Screen:
 
    - In the `draw()` function, draw the loaded images on the canvas. You can use the `image()` function for each character:
-```
+```javaScript
 function draw() {
   image(spongeBob, x,y,w,h);
 }
